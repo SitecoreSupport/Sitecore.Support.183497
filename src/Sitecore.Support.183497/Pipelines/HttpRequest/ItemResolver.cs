@@ -295,6 +295,7 @@ namespace Sitecore.Support.Pipelines.HttpRequest
       }
 
       accessDenied = !result.Access.CanRead();
+      args.PermissionDenied = accessDenied;
 
       return accessDenied ? null : result;
     }
