@@ -58,13 +58,13 @@
   <ItemGroup>
     <Compile Include="Pipelines\HttpRequest\ItemResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reflection\Proxy\SitecoreContextProxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.183497.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\sc82rev170728.pubxml" />
     <None Include="web.config" />
   </ItemGroup>
   <PropertyGroup>
